@@ -36,7 +36,7 @@ Package Managers help by streamlining a few important items:
 Homebrew is the MacOS 3rd party package manager located at: [https://brew.sh/](https://brew.sh/ "brew installer page"). It is available for Intel and M1 based Macs -- the workflow doesn't change.
 
 If you have a Mac - install brew and provide a screenshot of the output of the command: `brew --version`
-![brew ](1.png)
+![choco](1.png)
 
 
 ### Windows 10 and 11
@@ -80,8 +80,6 @@ For MacOS, newer versions use the Z shell.  This is due to Apple not using GPLv3
 
 Open a terminal and type the commands: `zsh --version` and `ssh -V` and take a screenshot of the output
 
-![zsh -v](4.png)
-![ssh -v](5.png)
 ### Installation of a Modern Terminal
 
 A Terminal is a way to run and manage multiple shell together, not unlike a web-browser, in a single managed window.  You will spend much time on in a shell during your career, the Terminal is a huge helper.
@@ -94,7 +92,6 @@ On MacOS, there is a terminal called [iterm2](https://iterm2.com/ "MacOS shell t
 
 Open the iterm2 Terminal and from the File > About section take a screenshot of the version output
 
-![iter2](iterm2.png)
 
 ### Install IDE editor with native version control support
 
@@ -110,7 +107,7 @@ We will be installing an text editor or and IDE for all of our coding and config
   * Cross Platform development tool from Adobe
 
 Take a screenshot from the ABOUT tab in your IDE to show the installed version
-![vscode](<vs code.png>)
+
 
 ### Install Git Client for Version Control
 
@@ -118,7 +115,7 @@ Version Control is vital to modern software development and we will be using our
 
 Take a screenshot of the output of the command: ```git --version```
 
-![git version](6.png)
+![git version](2.png)
 
 #### Configure Git Client
 
@@ -159,17 +156,14 @@ Using your package manager, install the latest version of [Vagrant](https://vagr
 
 Take a screenshot of the output of the command: ```vagrant --version```
 
-![vagrant](8.png)
-
 ### Install Packer.io
 
 Packer is another automation tool from HashiCorp.  Whereas Vagrant was for running virtual machines, Packer's job is to build virtual machine images from a template language.  This tool allows fast infrastructure deployment, multi-provider portability, improved stability, and greater testability.
 
 Using a package manager, install the latest version of [Packer](https://packer.io "Packer install site").  If you have a version > 1.6.x you will be ok. Note, if on Linux, do not use the built in package manager as these versions of Vagrant and Packer are too old and unmaintained.  
 
-Take a screenshot of the output of the command: ```packer --version```
+Take a screenshot of the output of the command: ```packer --version```![packers](8.png)
 
-![packer](9.png)
 
 ### Oh-My-Git Tutorial
 
@@ -179,11 +173,10 @@ Complete the tutorial and take screenshots of the completed sections (may need t
 
 This Git tutorial is a good refresher for those who need it and a great introduction for those new to Version Control and want to learn it. You can leave the last section out, **Sandbox**, it is an open area for you to experiment in and no real way to "complete it."
 
-![oh-my-god](10.png)
-
+![ohmygod](9.png)
+![ohmygod2](10.png)
 ## Tooling Assignment Part II
 
-# Harini boyapally
 
 ![Me](images/me.jpeg "Me")
 
